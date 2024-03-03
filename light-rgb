@@ -30,9 +30,9 @@ const char* mqtt_username = "your_mikrodash_username"; // Usuario de MikroDash
 const char* mqtt_password = "your_mikrodash_password"; // Contraseña de MikroDash
 
 // Tópicos MQTT para la suscripción
-const char* mqtt_topic_value = "your_mikrodash_account/luz_color/value";
-const char* mqtt_topic_percent = "your_mikrodash_account/luz_color/percent";
-const char* mqtt_topic_color = "your_mikrodash_account/luz_color/color/hex";
+const char* mqtt_topic_value = "your_mikrodash_id/topic/value";
+const char* mqtt_topic_percent = "your_mikrodash_id/topic/percent";
+const char* mqtt_topic_color = "your_mikrodash_id/topic/color/hex";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
